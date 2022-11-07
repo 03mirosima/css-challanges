@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+h1,
+h3,
+h2 {
+  margin: 0;
+}
+body {
+  margin: 0;
+  color: #222c2a;
+  font-size: 1rem;
+}
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+.title {
+  font-family: "Playfair Display";
+}
+.hero--title {
+  font-size: 3.75rem;
+  color: #824936;
+}
+.hero--small-title {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+}
+.hero {
+  background-color: #f3eed9;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero__text {
+  width: 80%;
+  text-align: center;
+}
